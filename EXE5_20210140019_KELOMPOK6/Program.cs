@@ -39,7 +39,14 @@ namespace EXE5_20210140019_KELOMPOK6
         }
         public void delete()
         {
-
+            if (ardian == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            ardian = ardian.next;
+            if (ardian == null)
+                windarwan = null;
         }
         
     }
