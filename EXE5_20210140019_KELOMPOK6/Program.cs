@@ -50,7 +50,9 @@ namespace EXE5_20210140019_KELOMPOK6
         }
         public void display()
         {
-            
+            Node display;
+            for (display = ardian; display != null; display =display.next)
+                Console.WriteLine(display.name);
         }
         
     }
@@ -58,8 +60,6 @@ namespace EXE5_20210140019_KELOMPOK6
     {
         static void Main(string[] args)
         {
-            queue q = new queue();
-            q.insert();
         }
     }
 }
