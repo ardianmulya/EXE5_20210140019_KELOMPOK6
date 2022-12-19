@@ -64,7 +64,14 @@ namespace EXE5_20210140019_KELOMPOK6
             char ch;
             while (true)
             {
+                try
+                {
 
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered.");
+                }
             }
         }
     }
