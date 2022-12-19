@@ -48,6 +48,10 @@ namespace EXE5_20210140019_KELOMPOK6
             if (ardian == null)
                 windarwan = null;
         }
+        public void display()
+        {
+            
+        }
         
     }
      class Program
