@@ -66,6 +66,14 @@ namespace EXE5_20210140019_KELOMPOK6
             {
                 try
                 {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Implement insert operation");
+                    Console.WriteLine("2. Implement delete operation");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice: ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
 
                 }
                 catch (Exception e)
