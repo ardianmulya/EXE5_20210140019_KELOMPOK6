@@ -37,6 +37,10 @@ namespace EXE5_20210140019_KELOMPOK6
             windarwan.next = newnode;
             windarwan = newnode;
         }
+        public void delete()
+        {
+
+        }
         
     }
      class Program
