@@ -15,6 +15,11 @@ namespace EXE5_20210140019_KELOMPOK6
     {
         Node ardian, windarwan;
 
+        public void insert()
+        {
+
+        }
+        
     }
      class Program
     {
