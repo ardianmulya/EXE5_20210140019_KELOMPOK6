@@ -22,8 +22,20 @@ namespace EXE5_20210140019_KELOMPOK6
 
         public void insert()
         {
-
-
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("Masukan Element: ");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (ardian == null)
+            {
+                ardian = newnode;
+                windarwan= newnode;
+                return;
+            }
+            windarwan.next = newnode;
+            windarwan = newnode;
         }
         
     }
@@ -31,6 +43,8 @@ namespace EXE5_20210140019_KELOMPOK6
     {
         static void Main(string[] args)
         {
+            queue q = new queue();
+            q.insert();
         }
     }
 }
