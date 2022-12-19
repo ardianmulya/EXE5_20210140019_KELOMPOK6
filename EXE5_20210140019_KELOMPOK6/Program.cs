@@ -8,7 +8,13 @@ namespace EXE5_20210140019_KELOMPOK6
 {
     class Node
     {
+        public string name;
         public Node next;
+    }
+    class queue
+    {
+        Node ardian, windarwan;
+
     }
      class Program
     {
