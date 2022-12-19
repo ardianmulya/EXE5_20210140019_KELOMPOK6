@@ -61,6 +61,7 @@ namespace EXE5_20210140019_KELOMPOK6
         static void Main(string[] args)
         {
             queue q = new queue();
+            char ch;
 
         }
     }
