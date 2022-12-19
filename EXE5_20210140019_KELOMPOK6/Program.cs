@@ -14,9 +14,15 @@ namespace EXE5_20210140019_KELOMPOK6
     class queue
     {
         Node ardian, windarwan;
+        public queue()
+        {
+            ardian = null;
+            windarwan = null;
+        }
 
         public void insert()
         {
+
 
         }
         
